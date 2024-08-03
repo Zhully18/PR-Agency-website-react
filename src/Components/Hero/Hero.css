@@ -94,3 +94,29 @@
 .hero_icon{
     font-size: 30px;
 }
+
+@media screen and (max-width: 480px) {
+    .hero{
+        height: 170vh;
+        flex-direction: column;
+        padding-inline: 30px;
+    }
+    .hero-content{
+        margin-top: 10px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .hero-content h1{
+        font-size: 3rem;
+    }
+    .hero-content p{
+        font-size: 16px;
+    }
+    .cta-button, .services-button{
+        padding: 16px 28px;
+    }
+    .image-container_small .small_clean-img, .image-container_small_one .small_clean-img{
+        width: 100px;
+        height: 300px;
+    }
+}

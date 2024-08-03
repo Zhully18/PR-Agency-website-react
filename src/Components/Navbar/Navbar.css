@@ -37,6 +37,11 @@
 .toggle{
     display: none;
 }
+.line{
+    height: 1px;
+    background: #555;
+    border: none;
+}
 
 @media screen and (max-width: 480px) {
     .nav-logo h2{

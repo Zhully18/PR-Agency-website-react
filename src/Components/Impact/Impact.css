@@ -1,0 +1,81 @@
+.impact{
+    padding: 80px;
+    background-color: #66cdaa;
+}
+.impact_txt{
+    display: flex;
+    gap: 150px;
+}
+.impact_txt h1{
+    font-size: 40px;
+}
+.impact_txt p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.impact_container{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+.impact_container .left img{
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    row-gap: 5px;
+    padding: 20px;
+}
+.right_num h1{
+    font-size: 80px;
+}
+.right_num p{
+    font-size: 20px;
+}
+.impact button{
+    padding: 22px 42px;
+    background: red;
+    border: none;
+    border-radius: 30px;
+    margin-left: 30rem;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 480px){
+    .impact{
+        padding: 30px;
+        margin-top: 90px;
+    }
+    .impact_txt{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .impact_txt h1{
+        font-size: 26px;
+    }
+    .impact_txt p{
+        font-size: 16px;
+    }
+    .impact_container .left img{
+        display: none;
+    }
+    .right{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+        margin-left: -110px;
+        row-gap: 40px;
+    }
+    .right_num h1{
+        font-size: 50px;
+    }
+    .right_num p{
+        font-size: 16px;
+    }
+    .impact button{
+        display: none;
+    }
+}

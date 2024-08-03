@@ -28,6 +28,7 @@ const Navbar = () => {
                 {Mobile ? <TiTimes className='close_icon'/> : <BiMenu className='open_icon'/>}
             </button>
         </div>
+        <hr className='line'/>
     </div>
   )
 }

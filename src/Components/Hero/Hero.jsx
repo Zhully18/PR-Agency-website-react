@@ -5,7 +5,7 @@ import pix3 from '../../assets/hero.jpg'
 import pix4 from '../../assets/man3.jpg'
 import pix5 from '../../assets/lady2.jpg'
 import './Hero.css'
-import { GiStarShuriken } from 'react-icons/gi'
+// import { GiStarShuriken } from 'react-icons/gi'
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
                 </div>
             </div>
         </section>
-        <div className="hero_trusted">
+        {/* <div className="hero_trusted">
             <div className="trusted_content">
                 <GiStarShuriken className='hero_icon'/>
                 <p>Dedicated </p>
@@ -59,17 +59,6 @@ const Hero = () => {
                 <p>Dedicated </p>
             </div>
 
-        </div>
-        {/* <div className="hero_trsuted">
-            <div className="trusted-content">
-                <div className="imgs">
-                        <img src={logo1} alt="" className="logo" />
-                        <img src={logo2} alt="" className="logo" />
-                        <img src={logo3} alt="" className="logo" />
-                        <img src={logo4} alt="" className="logo" />
-                        <img src={logo5} alt="" className="logo" />
-                </div>
-            </div>
         </div> */}
     </div>
   )
